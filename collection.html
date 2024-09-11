@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav id="navbar" class="d-flex justify-content-between align-items-center p-3 shadow p-2 bg-body rounded">
+        <h1>Nostra</h1>
+        <div class="d-flex column-gap-3 ">
+            <p><a href="/index.html" class="text-decoration-none text-black">HOME</a></p>
+            <p><a href="/collection.html" class="text-decoration-none text-black">COLLECTION</a></p>
+            <p><a href="/cantact.html" class="text-decoration-none text-black">CONTACT</a></p>
+        </div>
+        <div class="toggle-menu">
+            <i class="fa-solid fa-bars" onclick="shownav()"></i>
+        </div>
+    </nav>
+    <!-- side navbar -->
+    <div class="side-navbar">
+        <p class="xmark">
+            <i class="fa-solid fa-xmark" onclick="closenav()"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p><a href="/index.html" class="text-decoration-none text-white ">HOME</a></p>
+            <p><a href="/collection.html" class="text-decoration-none text-white">COLLECTION</a></p>
+            <p><a href="/cantact.html" class="text-decoration-none text-white">CONTACT</a></p>
+        </div>
+
+    </div>
+
+    <!-- product -->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="porduct" id="products">
+            <div class="products-box">
+                <img src="/img/9.jpg" alt="">
+                <p>White shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="/img/10.jpg" alt="">
+                <p>black shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="/img/11.jpg" alt="">
+                <p>White shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="/img/12.jpg" alt="">
+                <p>White shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="/img/13.jpg" alt="">
+                <p>White shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="/img/14.jpg" alt="">
+                <p>black shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="/img/15.jpg" alt="">
+                <p>White shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="/img/16.jpg" alt="">
+                <p>White shirt</p>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-containner">
+            <div class="footer-box-1">
+                <h2 class="headingtext">Nostra</h2>
+                <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quos nostrum asperiores
+                    nulla minus ipsa?</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: white;"></i>
+                    <i class="fa-brands fa-facebook" style="color: white;"></i>
+                    <i class="fa-brands fa-twitter" style="color: white;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@ 2024 Nostra.com</p>
+    </div>
+
+</body>
+
+<script src="/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>
