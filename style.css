@@ -70,6 +70,12 @@ body{
     gap: 10px;
     
 }
+@media (min-width:800px) {
+    .new-arrival-container{
+        margin-left: 77px;
+    }
+    
+}
 .service-container-2 div{
     background-color: #F2F4F7;
     border-radius: 5px;
@@ -81,14 +87,18 @@ body{
 }
 .new-arrival{
     display: flex;
-    margin-top: 20px;
+    margin: auto;
     flex-wrap: wrap;
     justify-content: space-around;
    
 }
 .new-arrival-containe {
-    flex-basis: 20%;
+    flex-basis: 25%;
+    flex-grow: 1;
 }
+
+
+
 .new-arrival button{
     padding-left: 10%;
     padding-right: 10%;
@@ -98,7 +108,7 @@ body{
     color: #1D232C;
     position: relative;
     top: -30%;
-    left: 15%;
+    left: 58px;
     border-radius: 40px;
 }
 .news{
@@ -199,7 +209,7 @@ body{
   }
 
 
-@media screen and (max-width:600px) {
+@media (max-width:600px) {
     .toggle-menu{
         display: block;
     }
@@ -209,8 +219,17 @@ body{
     .image{
         display: none;
     }
+    .new-arrival-container img {
+       margin-left: 92px;
+    }
+    .new-arrival button{
+        left: 140px;
+    }
     .service-container-1{
         display: none;
+    }
+    .news p{
+        text-align: center;
     }
     .service-container-2{
         flex-direction: column;
